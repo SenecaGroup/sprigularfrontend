@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sprigularfrontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# sprigularfrontend
+Frontend Side for Blog Project
+>>>>>>> 5df8a7b2a975fd756c2bc528cb61924d0240b212
