@@ -3,11 +3,10 @@ import { CommonModule } from '@angular/common';
 
 import { AsideComponent } from './aside/aside.component';
 import { FooterComponent } from './footer/footer.component';
-import { HeaderComponent } from './header/header.component';
+import { NavComponent } from './nav/nav.component';
 import { MainComponent } from './main/main.component';
-import { CategoryComponent } from './header/category/category.component';
-import { LinkComponent } from './header/link/link.component';
-import { NavComponent } from './header/nav/nav.component';
+import { CategoryComponent } from './nav/category/category.component';
+import { LinkComponent } from './nav/link/link.component';
 import { EntryComponent } from "./entry.component";
 
 @NgModule({
@@ -18,21 +17,19 @@ import { EntryComponent } from "./entry.component";
   declarations: [
     AsideComponent,
     FooterComponent,
-    HeaderComponent,
+    NavComponent,
     MainComponent,
     CategoryComponent,
     LinkComponent,
-    NavComponent,
     EntryComponent
   ],
   exports: [
     AsideComponent,
     FooterComponent,
-    HeaderComponent,
+    NavComponent,
     MainComponent,
     CategoryComponent,
     LinkComponent,
-    NavComponent,
     EntryComponent
   ]
 })

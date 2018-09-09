@@ -1,8 +1,11 @@
-p{
+nav {
   float: left;
-  width: 30%;
+  width: 20%;
   height: 440px;
   background: #1ab2ff;
   padding: 20px;
-  margin-top: -22px;
+  margin-top: 54px;
+}
+a {
+  color: black;
 }
