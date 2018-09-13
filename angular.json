@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/sprigularfrontend",
+            "outputPath": "../sprigularbackend/src/main/resources/static/index.html",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -24,7 +24,7 @@
             ],
             "styles": [
               "src/styles.css",
-              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/bootstrap-material-design/dist/css/bootstrap-material-design.css",
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.js",
