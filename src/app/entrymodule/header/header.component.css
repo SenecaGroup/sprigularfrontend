@@ -1,0 +1,14 @@
+.navbar-default{
+  height: 200px;
+  background-color: darkgray;
+
+}
+
+.navbar-brand{
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  text-indent: 20em;
+  font-family: "Norican", cursive;
+}
