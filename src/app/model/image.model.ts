@@ -1,6 +1,6 @@
 export class Image {
-  public  imagePath: string;
-  public  alter: string;
+  private  imagePath: string;
+  private  alter: string;
 
   constructor(imagePath: string, alter: string) {
     this.imagePath = imagePath;
