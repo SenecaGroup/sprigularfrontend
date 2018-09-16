@@ -1,6 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Image} from './nav.model';
-import {NavService} from './nav.service';
+import {Image} from '../../model/image.model';
+import {ResourceService} from '../../resource/resource.service';
+
 
 @Component({
   selector: 'app-nav',
@@ -10,7 +11,7 @@ import {NavService} from './nav.service';
 export class NavComponent implements OnInit {
   images: Image[];
 
-  constructor(private navService: NavService) {
+  constructor(private navService: ResourceService) {
     this.images = this.navService.getImages();
   }
 

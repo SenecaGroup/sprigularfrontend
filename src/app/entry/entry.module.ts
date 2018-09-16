@@ -8,12 +8,14 @@ import { MainComponent } from './main/main.component';
 import { CategoryComponent } from './nav/category/category.component';
 import { LinkComponent } from './nav/link/link.component';
 import { EntryComponent } from "./entry.component";
-import {NavService} from './nav/nav.service';
+
+
+import {ResourceModule} from '../resource/resource.module';
 
 @NgModule({
   imports: [
     CommonModule,
-
+    ResourceModule
   ],
   declarations: [
     AsideComponent,
@@ -25,10 +27,7 @@ import {NavService} from './nav/nav.service';
     EntryComponent
 
   ],
-  providers: [
-    NavService
-  ],
-  exports: [
+    exports: [
     AsideComponent,
     FooterComponent,
     NavComponent,

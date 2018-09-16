@@ -25,7 +25,7 @@
   /*width: 80%;*/
   /*border: black solid 2px;*/
 /*}*/
-div{
+#mainTop {
   border-left: 1px solid rgba(0,0,0,.05);
 }
 .container-fluid {
@@ -36,6 +36,6 @@ div{
   margin-left: auto;
   height: 500px;
 }
-main {
+#mainSet {
   margin-top: 100px;
 }

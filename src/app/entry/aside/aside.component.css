@@ -1,4 +1,4 @@
-div {
+#asideMain {
   float: left;
   width: 40%;
 
@@ -6,9 +6,7 @@ div {
   padding: 20px;
   margin-top: 54px;
 }
-a {
-  color: black;
-}
+
 .form-control {
   display: block;
   width: 100%;
