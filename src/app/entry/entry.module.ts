@@ -9,10 +9,13 @@ import { CategoryComponent } from './nav/category/category.component';
 import { LinkComponent } from './nav/link/link.component';
 import { EntryComponent } from "./entry.component";
 
+
+import {ResourceModule} from '../resource/resource.module';
+
 @NgModule({
   imports: [
     CommonModule,
-
+    ResourceModule
   ],
   declarations: [
     AsideComponent,
@@ -22,8 +25,9 @@ import { EntryComponent } from "./entry.component";
     CategoryComponent,
     LinkComponent,
     EntryComponent
+
   ],
-  exports: [
+    exports: [
     AsideComponent,
     FooterComponent,
     NavComponent,
