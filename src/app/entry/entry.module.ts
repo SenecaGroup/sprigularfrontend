@@ -8,6 +8,7 @@ import { MainComponent } from './main/main.component';
 import { CategoryComponent } from './nav/category/category.component';
 import { LinkComponent } from './nav/link/link.component';
 import { EntryComponent } from "./entry.component";
+import {NavService} from './nav/nav.service';
 
 @NgModule({
   imports: [
@@ -22,6 +23,10 @@ import { EntryComponent } from "./entry.component";
     CategoryComponent,
     LinkComponent,
     EntryComponent
+
+  ],
+  providers: [
+    NavService
   ],
   exports: [
     AsideComponent,
