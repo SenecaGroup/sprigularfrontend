@@ -6,20 +6,23 @@
   <div class="navbar-nav-scroll">
     <ul class="navbar-nav bd-navbar-nav flex-row">
       <li class="nav-item">
-        <a class="nav-link " href="#" onclick="ga('send', 'event', 'Navbar', 'Bootstrap', 'Docs');">Home</a>
+        <a class="nav-link " routerLink="/entry">Home</a>
 
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="#" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">About</a>
+        <a class="nav-link active" routerLink="/about" >About</a>
+           <!--onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');"-->
+
 
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');" >Language</a>
+        <a class="nav-link" routerLink="/language"  >Language</a>
+           <!--onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');"-->
          </li>
       <li class="nav-item partner creativetim">
-        <a class="nav-link" href="#"
-           onclick="ga('send', 'event', 'Navbar', 'Community links', 'Material Dashboard Pro');" target="_blank"
-           rel="noopener" >Tip</a>
+        <a class="nav-link" routerLink="/tip">Tip</a>
+           <!--onclick="ga('send', 'event', 'Navbar', 'Community links', 'Material Dashboard Pro');" target="_blank"-->
+           <!--rel="noopener" -->
        </li>
      </ul>
   </div>

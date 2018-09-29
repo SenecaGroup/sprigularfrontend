@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {Image} from '../../model/image.model';
 import {ResourceService} from '../../resource/resource.service';
 
@@ -12,11 +12,11 @@ export class NavComponent implements OnInit {
   images: Image[];
 
   constructor(private navService: ResourceService) {
-    this.images = this.navService.getImages();
   }
 
   ngOnInit() {
-
+    this.images = this.navService.getImages();
+    console.log(this.images)
   }
 
   // onSelected() {

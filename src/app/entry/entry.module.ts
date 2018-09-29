@@ -11,11 +11,19 @@ import { EntryComponent } from "./entry.component";
 
 
 import {ResourceModule} from '../resource/resource.module';
+import {AboutComponent} from '../About/about.component';
+import {LanguageComponent} from '../Language/language.component';
+import {TipComponent} from '../Tip/tip.component';
+import {Router, RouterModule} from '@angular/router';
+import {AppRoutingModule} from '../app-routing.module';
+import {ServiceModule} from '../service/service.module';
 
 @NgModule({
   imports: [
     CommonModule,
-    ResourceModule
+    ResourceModule,
+    RouterModule,
+    ServiceModule,
   ],
   declarations: [
     AsideComponent,
@@ -24,8 +32,10 @@ import {ResourceModule} from '../resource/resource.module';
     MainComponent,
     CategoryComponent,
     LinkComponent,
-    EntryComponent
-
+    EntryComponent,
+    AboutComponent,
+    LanguageComponent,
+    TipComponent
   ],
     exports: [
     AsideComponent,
@@ -34,7 +44,10 @@ import {ResourceModule} from '../resource/resource.module';
     MainComponent,
     CategoryComponent,
     LinkComponent,
-    EntryComponent
+    EntryComponent,
+    AboutComponent,
+    LanguageComponent,
+    TipComponent
   ]
 })
 export class EntryModule { }

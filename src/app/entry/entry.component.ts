@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {CategoryRepository} from '../service/repository/category-repository.service';
 
 @Component({
   selector: 'app-entry',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EntryComponent implements OnInit {
 
-  constructor() { }
+  constructor(private  categoryRepository: CategoryRepository) {
+    console.log(this.categoryRepository);
+  }
 
   ngOnInit() {
   }

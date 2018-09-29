@@ -12,8 +12,7 @@ export class ResourceService {
   ];
 
   getImages(): Image[] {
-    const images = this.images.splice(0);
-    return images;
+    return this.images.slice(0);
   }
   constructor() { }
 }
